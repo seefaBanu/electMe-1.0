@@ -1,0 +1,28 @@
+
+.cardi-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.cardi-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    margin-right: 10px;
+}
+
+.cardi-name{
+    display: flex;
+    font-size: 30px;
+}
+
+.cardi-count{
+    display: flex;
+    font-size:50px;
+
+}

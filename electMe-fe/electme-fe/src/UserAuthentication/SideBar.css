@@ -1,0 +1,60 @@
+.sideBar {
+  width: 355px;
+  height: 400px;
+  background: #DCE1E3;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.sideBar-bg{
+    /* background-color: #99CEFF; */
+    /* background-color: #a96762;
+    background-color: #591c0b; */
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+.sideBar-elements{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    /* background-color: #16A2F1; */
+    background-color: #5c5f58;
+    background-color: #a96762;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.sideBar-elements:hover{
+    /* background-color: #035099; */
+    background-color: #591c0b;
+    /* background-color: #b73225;
+    background-color: #004e7c;
+    background-color: #a96762; */
+    border-radius: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    scale: 1.05;
+    transform: scale(1.05) ease-in-out 0.4s;
+}
+
+.sideBar-icon{
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 20px;
+
+}
+
+.sideBar-component{
+    margin: 0px;
+    margin-left: 5px;
+    color: #ffffff;
+    font-size: 20px;
+}
